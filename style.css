@@ -1,0 +1,42 @@
+body{
+    background:#171717;
+    color:white;
+
+    font-family:Arial;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    margin:0;
+
+    text-align:center;
+}
+
+button{
+    background-color:#ff4f9b;
+    color:white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 15px;
+
+    width: 80%;
+    max-width: 250px;
+}
+button:active{
+    transform:scale(0.95);
+}
+
+container{
+    width:95%;
+}
+
+photo{
+    width:80%;
+    max-width:350px;
+    border-radius:20px;
+}
